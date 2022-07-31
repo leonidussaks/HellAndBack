@@ -1,0 +1,23 @@
+name: HellAndBack
+version: '${project.version}'
+main: hellandback.hellandback.HellAndBack
+api-version: 1.19
+authors: [ leonidussaks ]
+description: this plugin create for send players in hell upon deaths!
+website: https://github.com/leonidussaks
+permissions:
+  hellandback.antihell:
+    no-permission message: "error?"
+commands:
+  sethell:
+    description: set hell in world
+    usage: /sethell
+    permission: hellandback.sethell
+  hell:
+    description: hell players
+    usage: /hell
+    permission: hellandback.hell
+  hellreload:
+    description: reload HellAndBack config
+    usage: /hellreload
+    permission: hellandback.hellreload
